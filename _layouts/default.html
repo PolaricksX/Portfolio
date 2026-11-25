@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description | escape }}">
+    <meta name="theme-color" content="#f5f4ef">
+    <title>{{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.data.portfolio.name }} home">
+        <span class="brand-mark">{{ site.data.portfolio.initials }}</span>
+        <span>{{ site.data.portfolio.name }}</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#more">Beyond</a>
+      </nav>
+      <a class="header-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="main">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-mark">{{ site.data.portfolio.initials }}</span>
+        <span>{{ site.data.portfolio.name }}</span>
+      </a>
+      <p>Designed with intention. Built to keep growing.</p>
+      <a href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>

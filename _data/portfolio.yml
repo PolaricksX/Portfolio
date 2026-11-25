@@ -1,0 +1,53 @@
+name: "Your Name"
+initials: "YN"
+role: "Your role or area of study"
+location: "Your City, Country"
+availability: "Open to opportunities"
+intro: "I build thoughtful digital experiences and solve real-world problems with technology."
+email: "hello@example.com"
+github_url: "https://github.com/your-username"
+linkedin_url: "https://www.linkedin.com/in/your-profile"
+
+about: >-
+  I’m a [student / recent graduate / professional] interested in [your field or
+  specialty]. I enjoy turning complex ideas into useful, clear, and considered
+  solutions.
+about_extra: >-
+  Outside of my projects, I spend time [volunteering, mentoring, creating, or
+  another interest]. I’m always curious about what I can learn next.
+
+skills:
+  - "Add a technical skill"
+  - "Add a tool or technology"
+  - "Add a strength"
+  - "Add a relevant area of knowledge"
+
+projects:
+  - number: "01"
+    title: "Project One"
+    category: "Web application"
+    description: "What does this project do, who is it for, and what problem does it solve?"
+    stack: "Add the main technologies"
+    repository_url: "https://github.com/your-username/project-one"
+    demo_url: ""
+  - number: "02"
+    title: "Project Two"
+    category: "Technical project"
+    description: "Describe the context, your contribution, and one interesting detail."
+    stack: "Add the main technologies"
+    repository_url: "https://github.com/your-username/project-two"
+    demo_url: ""
+  - number: "03"
+    title: "Project Three"
+    category: "Independent or school project"
+    description: "Share the value this project brings and what you learned while building it."
+    stack: "Add the main technologies"
+    repository_url: "https://github.com/your-username/project-three"
+    demo_url: ""
+
+highlights:
+  - title: "Hackathons & achievements"
+    description: "Add an award, event, presentation, or milestone worth highlighting."
+  - title: "Community & interests"
+    description: "Share volunteer work, leadership, creative work, or an interest relevant to your goals."
+pitch_url: ""

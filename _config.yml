@@ -1,0 +1,9 @@
+title: "Your Name — Portfolio"
+description: "A portfolio of projects, skills, and experience."
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
